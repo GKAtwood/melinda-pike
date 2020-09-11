@@ -14,7 +14,7 @@ class Home extends Component {
            <Nav/>
           <header className="App-header">
            
-            <div className="App-title"><b><b>Melinda Pike</b></b></div>
+            <div className="App-title"><b><b></b></b></div>
             
             <div className="login-box">
              
@@ -23,9 +23,14 @@ class Home extends Component {
             </div>
           </header>
           
-          
+          <section>
+              <div className='main'>MAIN</div>
+          </section>
   
-          
+          <footer className='footer'>
+              <h4>Copyright © 2020 Melinda Pike</h4>
+              
+          </footer>
         </div>
       );
     }

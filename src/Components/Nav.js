@@ -9,13 +9,13 @@ function Nav() {
        
        
         <div className='nav'>
-            <h1></h1>
+            <h2 >MELINDA PIKE</h2>
             <h1>HOME</h1>
             <h1>ABOUT</h1>
             <h1>PUBLISHED</h1>
-            <h1>BLOG</h1>
-            <h1>CONTACT</h1>
-            <h1>DESTINATION WEDDING PHOTOGRAPHER</h1>
+            <h1>DIGITAL MARKETING + PR</h1>
+            <h1>BRAND PHOTOGRAPHY</h1>
+            <h1>WEDDING PHOTOGRAPHY</h1>
           
            
         </div> 
