@@ -9,13 +9,15 @@ function Nav() {
        
        
         <div className='nav'>
-            <h2 >MELINDA PIKE</h2>
-            <h1>HOME</h1>
-            <h1>ABOUT</h1>
-            <h1>PUBLISHED</h1>
-            <h1>DIGITAL MARKETING + PR</h1>
-            <h1>BRAND PHOTOGRAPHY</h1>
-            <h1>WEDDING PHOTOGRAPHY</h1>
+           
+            <p>MELINDA PIKE</p>
+            
+            <h2 className='home'>HOME</h2>
+            <h2>ABOUT</h2>
+            <h2>PUBLISHED</h2>
+            <h2>DIGITAL MARKETING + PR</h2>
+            <h2>BRAND PHOTOGRAPHY</h2>
+            <h2>WEDDING PHOTOGRAPHY</h2>
           
            
         </div> 
