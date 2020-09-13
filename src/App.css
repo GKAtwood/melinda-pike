@@ -40,6 +40,7 @@
   justify-content: space-around;
   padding: 10px;
   
+  
 }
 
 .nav h2{
@@ -77,7 +78,7 @@
   background-image: url("https://images.unsplash.com/photo-1533122171528-573eb0aa80e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
 }
 
-.maincentent{
+.maincontent{
   font-family: 'Playfair Display';
   text-align: left;
   font-size: 35px;
@@ -159,6 +160,54 @@
   letter-spacing: 2px;
   text-align: center;
   position: relative; top: 50px; 
+}
+
+.about{
+ 
+}
+
+.abouttitle{
+  font-family: 'Playfair Display';
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-size: 45px;
+}
+
+.about img{
+  display: flex;
+  margin:38px;
+  position: relative; top: 60px; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.abouttitle{
+  text-align: center;
+  padding: 5px;
+  
+}
+
+.aboutcontent p {
+  font-family:'Poppins';
+  font-size: 23px;
+  font-weight: lighter;
+  position: relative; top: -560px; 
+  position: relative; right: -600px; 
+  width:800px;
+ 
+}
+
+.aboutbutton{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  margin: 40px;
+  background: rgb(63, 44, 33);
+  font-family:'Poppins';
+  color: #ffffff;
+  font-size: 21px;
+  padding: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  position: relative; right: 500px; 
 }
 
 
