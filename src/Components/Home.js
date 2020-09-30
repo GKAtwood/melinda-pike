@@ -25,8 +25,8 @@ class Home extends Component {
           
           <section className='main'>
               <div className='maincontent'>Hey Awesome Human!</div>
-              <button className='readbutton'>READ MORE</button>
-              <button className="contactbutton">CONATCT ME</button>
+              <button className='readbutton'><span>READ MORE</span></button>
+              <button className="contactbutton"><span>CONTACT ME</span></button>
           </section>
 
           <section className='sectiontwo'>
@@ -49,7 +49,7 @@ class Home extends Component {
           
               <h1 className='abouttitle'>ABOUT MELINDA</h1>
               <img src="https://images.unsplash.com/photo-1587754539999-b5f5492704c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Melinda" className="melinda"   width="470"/>
-              <button className='aboutbutton'>READ MORE</button>
+              <button className='aboutbutton'><span>READ MORE</span></button>
               <div className='aboutcontent'>
              
             <p>My objective is to create a full funnel solution with expert Facebook & Instagram advertising services. We are a proficient Facebook Blueprint Certification partner offering top-notch services to small and big businesses alike with simple month-to-month contracts, à la carte service packages, and flexible budgets.

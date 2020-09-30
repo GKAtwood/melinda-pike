@@ -9,7 +9,7 @@ function Nav() {
        
        
         <div className='nav'>
-           
+            
             <p>MELINDA PIKE</p>
             
             <h2 className='home'>HOME</h2>

@@ -141,6 +141,31 @@
  text-decoration: none;
 }
 
+.readbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.readbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.readbutton:hover span {
+  padding-right: 25px;
+}
+
+.readbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .contactbutton{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
  cursor: pointer;
@@ -152,6 +177,31 @@
  padding: 15px;
  border-radius: 6px;
  text-decoration: none;
+}
+
+.contactbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.contactbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.contactbutton:hover span {
+  padding-right: 25px;
+}
+
+.contactbutton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .sectiontitle{
@@ -208,6 +258,31 @@
   border-radius: 6px;
   text-decoration: none;
   position: relative; right: 500px; 
+}
+
+.aboutbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.aboutbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.aboutbutton:hover span {
+  padding-right: 25px;
+}
+
+.aboutbutton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
