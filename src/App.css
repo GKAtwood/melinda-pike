@@ -41,6 +41,7 @@
   padding: 10px;
   
   
+  
 }
 
 .nav h2{
@@ -228,6 +229,8 @@
 
 
 
+
+
 .abouttitle{
   font-family: 'Playfair Display';
   letter-spacing: 2px;
@@ -320,6 +323,102 @@
   font-family:'Poppins';
   font-weight: lighter;
  }
+
+ .aboutpage img{
+  display: flex;
+  margin:50px;
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-left: 220px;
+  
+ 
+ }
+
+ .digital{
+  background-color: rgb(248, 245, 240);
+  margin: 130px;
+  padding: 130px;
+
+ }
+
+ .digital h1{
+  font-family:'Poppins';
+ }
+
+ .digital h2{
+  font-family:'Poppins';
+  font-weight: lighter;
+  font-size: 17px;
+ }
+ .digital li{
+  font-family:'Poppins';
+  font-size: 15px;
+ }
+
+ .published{
+  background-color: rgb(248, 245, 240);
+  margin: 150px;
+  padding: 150px;
+ }
+
+ .published h1{
+  font-family:'Poppins';
+  font-weight: lighter;
+ }
+
+ .social-follow{
+  position: relative;
+  top: -246px;
+  right: 246px;
+
+  
+}
+
+.social-follow a {
+  margin: 0 2rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.social-follow a:hover{
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+
+ 
+
+
 
 
 

@@ -8,10 +8,12 @@ import "semantic-ui-css/semantic.min.css";
 import routes from './routes';
 
 
+
 function App() {
   return (
     <HashRouter>
-   <div>
+    <div>
+    <Nav/>
     {routes}
    </div>
    </HashRouter>

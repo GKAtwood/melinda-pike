@@ -44,7 +44,9 @@ function About() {
       Prior to receiving her bachelors, she had over eight years of marketing and social media marketing
        experience. This business knowledge has helped Melinda to maintain hundreds of professional relationships. 
        Today Melinda brings 12 years of experience to the Digital Marketing, PR and Photography industries!</h3>
+       <img src="https://res.cloudinary.com/dfgz2wntk/image/upload/v1601673882/melinda_photo_sag6dt.png" alt="Melinda" className="melinda"   width="470"/>
      </div>
+     
      
     );
   }

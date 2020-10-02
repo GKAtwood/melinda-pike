@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import Nav from './Nav'
+import SocialFollow from './SocialFollow'
 
 
 
@@ -11,7 +11,7 @@ class Home extends Component {
       return (
         
         <div className="App-home">
-           <Nav/>
+           {/* <Nav/> */}
           <header className="App-header">
            
             <div className="App-title"><b><b></b></b></div>
@@ -24,6 +24,7 @@ class Home extends Component {
           </header>
           
           <section className='main'>
+          <SocialFollow/> <br></br>
               <div className='maincontent'>HEY AWESOME HUMAN!</div>
               <button className='readbutton'><span>READ MORE</span></button>
               <button className="contactbutton"><span>CONTACT ME</span></button>
@@ -48,7 +49,7 @@ class Home extends Component {
           <section className ="about">
           
               <h1 className='abouttitle'>ABOUT MELINDA</h1>
-              <img src="https://images.unsplash.com/photo-1471018238625-87ca40f13b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" alt="Melinda" className="melinda"   width="470"/>
+              <img src="https://res.cloudinary.com/dfgz2wntk/image/upload/v1601673661/melinda_photo1_vgo7bd.png" alt="Melinda" className="melinda"   width="470"/>
               
               <Link to='/about' className="links"><button className="aboutbutton"><span>READ MORE</span></button></Link>
               <div className='aboutcontent'>
@@ -62,6 +63,7 @@ class Home extends Component {
 
 </div>
           </section>
+        
   
           <footer className='footer'>
               <h4>Copyright © 2020 Melinda Pike</h4>
