@@ -11,7 +11,7 @@ function Nav() {
        
         <div className='nav'>
             
-            <p>MELINDA PIKE</p>
+            <Link to ='/' className='home'> <p>MELINDA PIKE</p></Link>
             
            
             <Link to='/' className="home"><h2>HOME</h2></Link>

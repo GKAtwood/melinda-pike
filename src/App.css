@@ -303,8 +303,8 @@
 
 .aboutpage{
   background-color: rgb(248, 245, 240);
-  margin: 150px;
-  padding: 150px;
+  margin: 110px;
+  padding: 50px;
 }
 
 
@@ -313,23 +313,34 @@
 .aboutpage h1 {
   font-family:'Poppins';
   font-size: 20px;
+  
  }
 
  .aboutpage h2{
   font-family:'Poppins';
+  font-size: 26px;
  }
 
  .aboutpage h3{
   font-family:'Poppins';
   font-weight: lighter;
+  font-size: 16px;
+ }
+
+ .aboutpage p{
+   font-family: 'Playfair Display';
+   font-weight: bolder;
+   letter-spacing: 1px;
+   font-size: 28px;
+   text-align: center;
  }
 
  .aboutpage img{
   display: flex;
-  margin:50px;
+  top: -26px;
   padding: 20px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  margin-left: 220px;
+  margin-left: 200px;
   
  
  }
