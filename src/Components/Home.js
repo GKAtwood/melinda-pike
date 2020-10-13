@@ -6,6 +6,7 @@ import SocialFollow from './SocialFollow'
 
 class Home extends Component {
     render() {
+      
      
   
       return (
